@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dnlib">
-      <HintPath>..\src\PerspexVS\lib\dnlib.dll</HintPath>
+      <HintPath>..\src\AvaloniaVS\lib\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -105,7 +105,7 @@
   <ItemGroup>
     <ProjectReference Include="..\src\AvaloniaVS\AvaloniaVS.csproj">
       <Project>{378D99A6-57BF-432D-A5A2-82CC4153736A}</Project>
-      <Name>PerspexVS</Name>
+      <Name>AvaloniaVS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
